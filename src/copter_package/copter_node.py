@@ -9,7 +9,7 @@ class MyNode(Node):
         self.move_up_pub = self.create_publisher(Float64, '/world/quadcopter/state', 10)
 
         # Read the launch argument
-        self.move_up_height = float(sys.argv[1]) 
+        self.move_up_height = self.get_parameter('move_up_height').value
 
         self.move_up()
 
