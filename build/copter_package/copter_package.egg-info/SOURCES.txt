@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+copter_package.egg-info/PKG-INFO
+copter_package.egg-info/SOURCES.txt
+copter_package.egg-info/dependency_links.txt
+copter_package.egg-info/entry_points.txt
+copter_package.egg-info/requires.txt
+copter_package.egg-info/top_level.txt
+copter_package.egg-info/zip-safe
+launch/copter_launch.py
+resource/copter_package

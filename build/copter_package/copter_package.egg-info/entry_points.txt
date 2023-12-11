@@ -1,0 +1,3 @@
+[console_scripts]
+copter_node = copter_package.copter_node:main
+
