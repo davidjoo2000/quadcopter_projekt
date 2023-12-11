@@ -1,0 +1,21 @@
+[0.979s] Invoking command in '/home/jood/quadcopter_ws/src/copter_package': PYTHONPATH=/home/jood/quadcopter_ws/build/copter_package/prefix_override:/home/jood/quadcopter_ws/install/copter_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/copter_package build --build-base /home/jood/quadcopter_ws/build/copter_package/build install --record /home/jood/quadcopter_ws/build/copter_package/install.log --single-version-externally-managed
+[1.229s] running egg_info
+[1.230s] writing ../../build/copter_package/copter_package.egg-info/PKG-INFO
+[1.230s] writing dependency_links to ../../build/copter_package/copter_package.egg-info/dependency_links.txt
+[1.231s] writing entry points to ../../build/copter_package/copter_package.egg-info/entry_points.txt
+[1.232s] writing requirements to ../../build/copter_package/copter_package.egg-info/requires.txt
+[1.232s] writing top-level names to ../../build/copter_package/copter_package.egg-info/top_level.txt
+[1.233s] reading manifest file '../../build/copter_package/copter_package.egg-info/SOURCES.txt'
+[1.234s] writing manifest file '../../build/copter_package/copter_package.egg-info/SOURCES.txt'
+[1.234s] running build
+[1.234s] running install
+[1.234s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.235s]   warnings.warn(
+[1.235s] running install_data
+[1.236s] running install_egg_info
+[1.238s] removing '/home/jood/quadcopter_ws/install/copter_package/lib/python3.10/site-packages/copter_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.239s] Copying ../../build/copter_package/copter_package.egg-info to /home/jood/quadcopter_ws/install/copter_package/lib/python3.10/site-packages/copter_package-0.0.0-py3.10.egg-info
+[1.240s] running install_scripts
+[1.270s] Installing copter_node script to /home/jood/quadcopter_ws/install/copter_package/lib/copter_package
+[1.270s] writing list of installed files to '/home/jood/quadcopter_ws/build/copter_package/install.log'
+[1.298s] Invoked command in '/home/jood/quadcopter_ws/src/copter_package' returned '0': PYTHONPATH=/home/jood/quadcopter_ws/build/copter_package/prefix_override:/home/jood/quadcopter_ws/install/copter_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/copter_package build --build-base /home/jood/quadcopter_ws/build/copter_package/build install --record /home/jood/quadcopter_ws/build/copter_package/install.log --single-version-externally-managed

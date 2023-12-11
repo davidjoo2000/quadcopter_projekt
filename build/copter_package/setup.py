@@ -1,1 +1,0 @@
-/home/jood/quadcopter_ws/src/copter_package/setup.py

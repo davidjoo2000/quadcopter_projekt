@@ -1,12 +1,13 @@
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist
-from std_msgs.msg import Float64, String
+from geometry_msgs.msg import Pose
+from std_msgs.msg import Float64
 
 class MyNode(Node):
     def __init__(self):
         super().__init__('copter_node')
-        self.move_up_pub = self.create_publisher(Float64, '/world/quadcopter/state', 10)
+        self.move_up_pub = self.create_publisher(Float64, '/world/quadcopter/pose', 10)
+        self.pose_sub = self.create_subscription(Pose, '/world/quadcopter/pose', self.pose_callback, 10)
 
         # Read the launch argument
         self.move_up_height = self.get_parameter('move_up_height').value
@@ -18,6 +19,10 @@ class MyNode(Node):
         msg = Float64()
         msg.data = self.move_up_height
         self.move_up_pub.publish(msg)
+
+    def pose_callback(self, msg):
+        self.get_logger().info(f"Current Drone Position: x={msg.position.x}, y={msg.position.y}, z={msg.position.z}")
+
 
 def main(args=None):
     
