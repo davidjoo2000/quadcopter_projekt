@@ -1,0 +1,24 @@
+[0.881s] Invoking command in '/home/jood/quadcopter_ws/build/copter_package': PYTHONPATH=/home/jood/quadcopter_ws/build/copter_package/prefix_override:/home/jood/quadcopter_ws/install/copter_package/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py develop --editable --build-directory /home/jood/quadcopter_ws/build/copter_package/build --no-deps install_data
+[1.218s] running develop
+[1.219s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.219s]   warnings.warn(
+[1.222s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.222s]   warnings.warn(
+[1.527s] running egg_info
+[1.527s] creating copter_package.egg-info
+[1.527s] writing copter_package.egg-info/PKG-INFO
+[1.528s] writing dependency_links to copter_package.egg-info/dependency_links.txt
+[1.528s] writing entry points to copter_package.egg-info/entry_points.txt
+[1.528s] writing requirements to copter_package.egg-info/requires.txt
+[1.528s] writing top-level names to copter_package.egg-info/top_level.txt
+[1.529s] writing manifest file 'copter_package.egg-info/SOURCES.txt'
+[1.533s] reading manifest file 'copter_package.egg-info/SOURCES.txt'
+[1.535s] writing manifest file 'copter_package.egg-info/SOURCES.txt'
+[1.539s] running build_ext
+[1.541s] Creating /home/jood/quadcopter_ws/install/copter_package/lib/python3.10/site-packages/copter-package.egg-link (link to .)
+[1.544s] Installing copter_node script to /home/jood/quadcopter_ws/install/copter_package/lib/copter_package
+[1.545s] 
+[1.545s] Installed /home/jood/quadcopter_ws/build/copter_package
+[1.545s] running install_data
+[1.545s] copying launch/copter_launch.py -> /home/jood/quadcopter_ws/install/copter_package/share/copter_package
+[1.600s] Invoked command in '/home/jood/quadcopter_ws/build/copter_package' returned '0': PYTHONPATH=/home/jood/quadcopter_ws/build/copter_package/prefix_override:/home/jood/quadcopter_ws/install/copter_package/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py develop --editable --build-directory /home/jood/quadcopter_ws/build/copter_package/build --no-deps install_data

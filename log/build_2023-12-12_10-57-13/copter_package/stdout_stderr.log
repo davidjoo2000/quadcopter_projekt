@@ -1,4 +1,8 @@
 running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
 running egg_info
 creating copter_package.egg-info
 writing copter_package.egg-info/PKG-INFO
@@ -15,9 +19,4 @@ Installing copter_node script to /home/jood/quadcopter_ws/install/copter_package
 
 Installed /home/jood/quadcopter_ws/build/copter_package
 running install_data
-creating /home/jood/quadcopter_ws/install/copter_package/share/ament_index
-creating /home/jood/quadcopter_ws/install/copter_package/share/ament_index/resource_index
-creating /home/jood/quadcopter_ws/install/copter_package/share/ament_index/resource_index/packages
-copying resource/copter_package -> /home/jood/quadcopter_ws/install/copter_package/share/ament_index/resource_index/packages
-copying package.xml -> /home/jood/quadcopter_ws/install/copter_package/share/copter_package
 copying launch/copter_launch.py -> /home/jood/quadcopter_ws/install/copter_package/share/copter_package

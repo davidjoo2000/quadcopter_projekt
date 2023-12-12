@@ -15,9 +15,4 @@ Installing copter_node script to /home/jood/quadcopter_ws/install/copter_package
 
 Installed /home/jood/quadcopter_ws/build/copter_package
 running install_data
-creating /home/jood/quadcopter_ws/install/copter_package/share/ament_index
-creating /home/jood/quadcopter_ws/install/copter_package/share/ament_index/resource_index
-creating /home/jood/quadcopter_ws/install/copter_package/share/ament_index/resource_index/packages
-copying resource/copter_package -> /home/jood/quadcopter_ws/install/copter_package/share/ament_index/resource_index/packages
-copying package.xml -> /home/jood/quadcopter_ws/install/copter_package/share/copter_package
 copying launch/copter_launch.py -> /home/jood/quadcopter_ws/install/copter_package/share/copter_package
